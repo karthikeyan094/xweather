@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+
+input{
+  padding: 8px;
+  border-radius: 5px;
+  width: 300px;
+  border: white;
+}
+
+button{
+  padding: 8px;
+  background-color: #75c181;
+  color: white;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: white;
+}
+
+.card{
+  padding: 30px 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #ccc ;
+  border-radius: 8px;
+}
+.card-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 200px;
+}
+
+body{
+  background-color: aliceblue;
+}
