@@ -31,9 +31,9 @@ function App() {
       <input type='text' value={search} placeholder='Enter city name' onChange={(e)=>setSearch(e.target.value)}/>
       <button>Search</button>
       </form>
-      {isLoading && <p>Loading data...</p>}
+      {isLoading && <p className='weather-card'>Loading data...</p>}
        {weatherData && !isLoading &&
-      <div className='card-wrapper '>
+      <div className='card-wrapper weather-card'>
         <div className='card weather-card'> 
           <h2>Temperature</h2>
           <p>{`${weatherData.current.temp_c}`}°C </p>
